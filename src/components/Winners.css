@@ -1,0 +1,19 @@
+h1 {
+    color:red;
+}
+.score {
+    background-color: white;
+    border:none;
+    color: red;
+    display: inline;
+}
+
+button {
+    background-color: rgb(114, 188, 245);
+    height:40px;
+    width:80px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color:white;
+}

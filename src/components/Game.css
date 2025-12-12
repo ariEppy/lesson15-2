@@ -1,0 +1,71 @@
+p {
+    background-color: lightgray;
+    width: 80px;
+    height:100px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid black ;
+    margin: auto;
+    margin-bottom: 5px;
+}
+body {
+    text-align: center;
+    border: 1px solid green;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+.comp {
+    text-align: start;
+}
+.you {
+    flex:50%;
+    text-align: right;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+}
+.bottom button {
+    width:70px;
+    height:40px;
+    background-color: rgb(134, 189, 240);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color:white;
+    
+}
+.scoreBoard h1 {
+   color:blue;
+}
+.scoreBoard .score p {
+    background-color: white;
+    color:black;
+    width:150px;
+}
+.flex {
+    display: flex;
+}
+.flexLeft {
+    flex:33%;
+}
+.flexMid {
+    flex:33%;
+    align-content: center;
+   
+    
+}
+.flexRight {
+    flex:33%;
+}
+.flexLeft2 {
+    flex:33%;
+
+   
+}
+.flexRight2 {
+    flex:66%;
+
+ 
+}
